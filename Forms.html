@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    body{
+      background-image: url("assets/images/bikes.jpeg");
+      background-size: cover;
+
+    }
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: steelblue;
+
+}
+l1 a{
+  padding: 15px;
+  color: black;
+  display: block;
+  text-decoration: none;
+
+}
+l1{
+  float: left;
+}
+l1 a:hover{
+  background-color: darkorchid;
+}
+
+h1{
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+
+  </style>
+
+
+
+  <link rel="stylesheet" href="assets/Css/hubs.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>forms</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<hr>
+<ul>
+  <l1><a href="divs.html">divs page</a></l1>
+  <l1><a href="hubclass.html">hubclass page</a></l1>
+  <l1><a href="headings.html">heading page</a></l1>
+  <l1><a href="images.html">images page</a></l1>
+  <l1><a href="iintro.html">iintro page</a></l1>
+  <l1><a href="iframe.html">iframe page</a></l1>
+  <l1><a href="table.html">table page</a></l1>
+
+</ul>
+
+
+<form action="">
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="jina" placeholder="enter first name"><br>
+  <label for="lname">last name</label>
+  <input type="text" id="lname" name="jina"placeholder="enter last name" ><br>
+  <label for="email"> email address</label>
+  <input type="text" id="email"name="barua pepe" placeholder="email address
+" ><br>
+  <label for="Dob">date of birth</label>
+  <input type="date" id="Dob"name="tarehe " placeholder="date of birth" ><br>
+  <label for="female">Female</label>
+  <input type="radio"id="female">
+  <label for="male">Male</label>
+  <input type="radio"id="male">
+  <label for="custom">custom</label>
+  <input type="radio"id="custom" name="gender"><br>
+
+  <label for="course">course taken</label>
+  <select name="courses" id="course">
+    <option value="full">fullstack</option>
+    <option value="js">react js</option>
+    <option value="django">django</option>
+    <option value="cyber security"> cyber security</option>
+    <option value="and">android</option>
+    <option value="python">python</option>
+
+  </select><br>
+
+
+  <label for="pass">password</label>
+  <input type="password" id="pass" name="neno siri " placeholder="password" ><br>
+
+  <input type="submit" value="register">
+  <label for="upload image">upload image</label>
+  <input type="file"id="upload image">
+
+</form>
+
+
+</body>
+</html>

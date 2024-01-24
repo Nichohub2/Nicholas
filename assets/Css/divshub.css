@@ -1,0 +1,42 @@
+.fruits{
+  border: solid 3px red;
+  background-color: gold;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Century Schoolbook L";
+
+}
+.cars{
+  border: solid 3px yellow;
+  background-color: aqua;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Potti Sreeramulu";
+}
+.players{
+  border:dotted 2px green;
+  background-color: blue;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: KacstPoster;
+
+}
+.bikes{
+    border:dotted 2px black;
+  background-color: darkorange;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Samyak Gujarati";
+}
+#games{
+  border: solid gold 3px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-image: url("assets/images/allstars.jpeg");
+  background-color: aqua;
+}
